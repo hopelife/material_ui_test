@@ -2,8 +2,7 @@
 
 ## [Installation](https://next.material-ui.com/getting-started/installation/)
 
-
-### npm
+### create app / git init / install
 ```bash
 // create react app
 ux$ create-react-app material_ui_test
@@ -21,49 +20,14 @@ ux/material_ui_test$ git remote add origin https://github.com/hopelife/material_
 
 ux/material_ui_test$ git push origin master
 
-
 //// install material-ui
 // with yarn
-ux/material_ui_test$ yarn add material-ui react-tap-event-plugin @material-ui/core@next
+ux/material_ui_test$ yarn add material-ui react-tap-event-plugin @material-ui/core@next @material-ui/icons
 
 // with npm
 // ux/material_ui_test$ npm install @material-ui/core@next
 
 ```
-
-### Roboto Font
-```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
-```
-
-### Font Icons
-```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-```
-
-```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-```
-
-### SVG Icons
-```bash
-// with npm
-ux/material_ui_test$ install @material-ui/icons@next
-
-// with yarn
-ux/material_ui_test$ yarn add @material-ui/icons@next
-```
-
-### CDN
-You can start using Material-UI with minimal Front-end infrastructure, which is great for prototyping. We discourage using this approach in production though - the client has to download the entire library, regardless of which components are actually used, affecting performance and bandwidth utilisation.
-
-### UMD releases
-We are providing two Universal Module Definition (UMD) files:
-
-- one for development: https://unpkg.com/@material-ui/core@next/umd/material-ui.development.js
-- one for production: https://unpkg.com/@material-ui/core@next/umd/material-ui.production.min.js
-You can follow this CDN example to quickly get started.
-
 
 ## Usage
 
