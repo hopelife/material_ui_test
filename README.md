@@ -17,6 +17,9 @@ ux/material_ui_test$ <ctrl + c>
 // git init
 ux/material_ui_test$ git init
 
+ux/material_ui_test$ git remote add origin https://github.com/hopelife/material_ui_test.git
+
+ux/material_ui_test$ git push origin master
 
 
 //// install material-ui
