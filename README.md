@@ -67,3 +67,10 @@ function App() {
 
 ReactDOM.render(<App />, document.querySelector("#app"));
 ```
+
+
+### install
+
+```bash
+react-router-dom react-apollo-hooks react-apollo graphql-tag apollo-boost
+```
